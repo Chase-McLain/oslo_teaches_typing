@@ -14,6 +14,7 @@ class OsloService {
 
 
 
+
   setActiveOslo(osloid) {
     console.log(name)
 
