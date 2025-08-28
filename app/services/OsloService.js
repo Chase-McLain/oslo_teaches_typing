@@ -1,3 +1,4 @@
+import { AppState } from "../AppState.js"
 
 
 
@@ -13,15 +14,13 @@ class OsloService {
 
 
 
+  setActiveOslo(osloid) {
+    console.log(name)
 
+    let currentOslo = AppState.oslos.find((oslo) => oslo.id == osloid)
+    AppState.activeOslo = currentOslo
+    console.log(AppState.activeOslo)
 
-
-
-
-
-
-  setActiveOslo() {
-    console.log('oslo')
   }
 
 

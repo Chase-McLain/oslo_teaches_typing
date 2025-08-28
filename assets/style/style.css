@@ -15,3 +15,8 @@ main {
   justify-content: start;
   align-items: end;
 }
+
+.textbox {
+  min-width: 1000px;
+
+}

@@ -27,7 +27,7 @@ class ObservableAppState extends EventEmitter {
 
   ]
 
-
+  activeOslo = null
 
 
 
